@@ -347,7 +347,8 @@ input{
     }
     .menu{
         display:inline;
-        width: 1.2rem;
+        width: 18px;
+        height: 18px;
     }
     /* -----------------ESTILOS MAIN----------------- */
     /* ---------DIV 1-------------- */
@@ -367,12 +368,12 @@ input{
         flex-direction: column;
     }
     .img1{
-        height: 20vh;
-        background-size: 350px 140px;
+        height: 15vh;
+        background-size: 350px 160px;
     }
     .img2{
-        height: 20vh;
-        background-size: 350px 140px;
+        height: 15vh;
+        background-size: 350px 160px;
     }
     /* ----------DIV 6 ------------- */
     .div_6{
@@ -380,5 +381,9 @@ input{
         background-image: url(/Imagenes/bg-2.jpg);
         background-size: 400px 300px;
         height: 30vh;
+    }
+    .email{
+        font-family: 'Lora';
+        width: 40%;
     }
 }
