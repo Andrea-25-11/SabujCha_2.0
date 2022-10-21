@@ -17,7 +17,6 @@ body header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0;
   padding: 1rem; }
   body header ul {
     display: flex;
