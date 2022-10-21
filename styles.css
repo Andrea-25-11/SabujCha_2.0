@@ -1,0 +1,105 @@
+/* ------------ESTILOS GENERALES--------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ------------ESTILOS BODY---------------- */
+
+
+
+html{
+    font-size: 16px;
+}
+body{
+    color: #333333;
+    font-family: "Work Sans";
+    /* font-family: 'Playfair Display';
+    font-family: "Lora"; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem; 
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none; 
+}
+header ul li{
+    display: flex;
+    list-style-type: none;
+    margin: 1rem;
+}
+header ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: #333333;
+}
+.carrito{
+    width: 1.2rem;
+}
+.menu{
+    display:none;
+}
+select {
+    border: none; 
+    font-family: "Work Sans";
+}
+/* -----------------ESTILOS MAIN----------------- */
+/* ---------DIV 1-------------- */
+.div_1 {
+    background-image: url(/Imagenes/slider-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div_1 h1{
+    font-family: 'Playfair Display';
+    font-size: 2rem;
+}
+.div_1 a{
+    color: #333333;
+    font-weight: bold;
+    padding: 1rem;
+}
+/* ---------DIV 2-------------- */
+/* ---------DIV 3-------------- */
+/* ---------DIV 4-------------- */
+/* ---------DIV 5-------------- */
+/* ---------DIV 6-------------- */
+/* ---------DIV 7-------------- */
+/* ---------DIV 8-------------- */
+/* ----------------------MEDIA QUERIE MAX WIDTH 600PX------------------------- */
+@media only screen and (max-width: 600px) {
+    html{
+        font-size: 10px;
+    }
+    /* -----ESTILOS HEADER MEDIA QUERIE--------- */
+    header ul{
+        display: none;
+    }
+    .carrito{
+        display: none;
+    }
+    .menu{
+        display:inline;
+        width: 1.2rem;
+    }
+    /* -----------------ESTILOS MAIN----------------- */
+    /* ---------DIV 1-------------- */
+    .div_1 {
+        justify-content: flex-start;
+    }
+    .div_1 h1{
+        margin-top: 7rem;
+    }
+}

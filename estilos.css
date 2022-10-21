@@ -6,12 +6,13 @@ body main .div_2 .img1 p, body main .div_2 .img2 p {
 
 body main .div_3 h1, body main .div_3 p {
   font-family: 'Playfair Display'; }
-
+/* -------------------ESTILOS GENERALES --------------- */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #333333; }
+  color: #333333;
+  font-family: "Lora" ; }
 
 body header {
   display: flex;
