@@ -43,7 +43,9 @@ body main .div_2 {
     padding: 6rem 1.5rem; }
     body main .div_2 .img1 p {
       color: #529F0F;
-      font-size: 2.5rem; }
+      font-size: 2.5rem;
+      text-decoration: dashed;
+    }
     body main .div_2 .img1 span {
       font-weight: bold; }
   body main .div_2 .img2 {
