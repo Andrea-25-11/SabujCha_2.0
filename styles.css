@@ -52,7 +52,7 @@ select {
 /* -----------------ESTILOS MAIN----------------- */
 /* ---------DIV 1-------------- */
 .div_1 {
-    background-image: url(/Imagenes/slider-2.jpg);
+    background-image: url(Imagenes/slider-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 75vh;
@@ -213,7 +213,7 @@ select {
 /* ---------DIV 6-------------- */
 .div_6{
     justify-content: flex-start;
-    background-image: url(/Imagenes/bg-2.jpg);
+    background-image: url(Imagenes/bg-2.jpg);
     background-size: 2200px 960px;
     height: 35vh;
 }
