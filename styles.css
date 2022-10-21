@@ -53,7 +53,7 @@ select {
 /* ---------DIV 1-------------- */
 .div_1 {
     background-image: url(/Imagenes/slider-2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     text-align: center;
@@ -62,16 +62,22 @@ select {
     justify-content: center;
     align-items: center;
 }
-.div_1 h1{
+.h1_div1{
     font-family: 'Playfair Display';
-    font-size: 2.1rem;
+    font-size: 4rem;
+    font-weight: 100;
 }
-.div_1 a{
+.a_div1{
     color: #333333;
     font-weight: bold;
     padding: 1rem;
+    text-decoration: underline;
 }
 /* ---------DIV 2-------------- */
+.div_2{
+    padding: 6rem;
+}
+
 .ul_div_2{
     display: flex;
     flex-wrap: wrap;
@@ -189,7 +195,7 @@ select {
 /* ---------DIV 6-------------- */
 .div_6{
     background-image:url(/Imagenes/bg-2.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
 }
@@ -237,6 +243,31 @@ input{
     gap: 1.5rem;
     padding: 3rem 0rem;
 }
+.p1_div7{
+    font-family: 'Lora';
+    color: #529F0F;
+    font-style:italic ;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 1rem;
+}
+.h2_div7{
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    padding: 1.2rem 0rem;
+}
+.p2_div7{
+    font-family: 'Lora';
+    font-weight: 100;
+    line-height: 1.8rem;
+}
+.a_div7{
+    text-decoration: underline;
+    padding: 1.8rem 0rem;
+    display: block;
+    font-weight: bold;
+}
 /* ---------DIV 8-------------- */
 .ul_div8{
     display: flex;
@@ -276,9 +307,13 @@ input{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+}
+.sabujcha_footer{
     padding: 1rem;
 }
-
+.img_footer{
+    padding: 1rem;
+}
 /* ----------------------MEDIA QUERIE MAX WIDTH 600PX------------------------- */
 @media only screen and (max-width: 600px) {
     html{
