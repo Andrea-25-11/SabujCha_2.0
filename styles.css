@@ -55,7 +55,7 @@ select {
     background-image: url(/Imagenes/slider-2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 75vh;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -212,11 +212,12 @@ select {
 }
 /* ---------DIV 6-------------- */
 .div_6{
-    background-image:url(/Imagenes/bg-2.jpg);
-    background-size: ;
-    background-repeat: no-repeat;
-    width: 100vh;
+    justify-content: flex-start;
+    background-image: url(/Imagenes/bg-2.jpg);
+    background-size: 2200px 960px;
+    height: 35vh;
 }
+
 .h1_div6{
     padding-top: 5rem;
     padding-bottom: 1rem;
@@ -352,9 +353,13 @@ input{
     /* ---------DIV 1-------------- */
     .div_1 {
         justify-content: flex-start;
+        background-image: url(/Imagenes/slider-2.jpg);
+        background-size: 550px 250px;
+        height: 30vh;
     }
-    .div_1 h1{
-        margin-top: 7rem;
+    .h1_div1{
+        font-size: 3rem;
+        padding-top: 5rem;
     }
     /* ---------DIV 2-------------- */
     .div_2{
@@ -369,5 +374,11 @@ input{
         height: 20vh;
         background-size: 350px 140px;
     }
-
+    /* ----------DIV 6 ------------- */
+    .div_6{
+        justify-content: flex-start;
+        background-image: url(/Imagenes/bg-2.jpg);
+        background-size: 400px 300px;
+        height: 30vh;
+    }
 }
