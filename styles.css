@@ -95,6 +95,24 @@ select {
 .ul_div_2 span{
     font-weight: bold; 
 }
+.img1{
+    width:35.625rem;
+    height:16.9375rem;
+    background-image: url(./Imagenes/banner-1.png);
+}
+.img1_contenido{
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
+.img2{
+    width:35.625rem;
+    height:16.9375rem;
+    background-image: url(./Imagenes/banner-2.png);
+}
+.img2_contenido{
+    padding-top: 5rem;
+    padding-left: 3rem;
+}
 /* ---------DIV 3-------------- */
 .div_3{
     background-image: url(./Imagenes/bg-1.jpg);
@@ -195,9 +213,9 @@ select {
 /* ---------DIV 6-------------- */
 .div_6{
     background-image:url(/Imagenes/bg-2.jpg);
-    background-size: cover;
+    background-size: ;
     background-repeat: no-repeat;
-    height: 100vh;
+    width: 100vh;
 }
 .h1_div6{
     padding-top: 5rem;
@@ -343,7 +361,13 @@ input{
         display: flex;
         flex-direction: column;
     }
-    .div_2 .img1{
-        background-size: 200px 150px;
+    .img1{
+        height: 20vh;
+        background-size: 350px 140px;
     }
+    .img2{
+        height: 20vh;
+        background-size: 350px 140px;
+    }
+
 }
