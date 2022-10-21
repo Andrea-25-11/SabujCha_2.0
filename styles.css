@@ -238,9 +238,46 @@ input{
     padding: 3rem 0rem;
 }
 /* ---------DIV 8-------------- */
-
-
-
+.ul_div8{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 6rem;
+    gap: 3rem;
+}
+/* ---------FOOTER PARTE 1 ------------ */
+.footer_parte1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 6rem;
+    background-color: #f8f8f8;
+    font-family: 'Playfair Display';
+}
+.ul_footer li{
+    list-style: none;
+    padding: 0.5rem;
+}
+.ul_footer li,a{
+    text-decoration: none;
+    color: #333333;
+}
+.a_ul_footer{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+/* ---------FOOTER PARTE 2 ------------ */
+.footer_parte2{
+    background-color: #EBEBEB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
 
 /* ----------------------MEDIA QUERIE MAX WIDTH 600PX------------------------- */
 @media only screen and (max-width: 600px) {
