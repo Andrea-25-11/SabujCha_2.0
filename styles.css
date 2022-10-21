@@ -64,7 +64,7 @@ select {
 }
 .div_1 h1{
     font-family: 'Playfair Display';
-    font-size: 2rem;
+    font-size: 2.1rem;
 }
 .div_1 a{
     color: #333333;
@@ -72,12 +72,100 @@ select {
     padding: 1rem;
 }
 /* ---------DIV 2-------------- */
+.ul_div_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+.ul_div_2 p{
+    color: #529F0F;
+    font-size: 2.5rem;
+    text-decoration: dashed;
+    font-family: "Lora";
+}
+.ul_div_2 span{
+    font-weight: bold; 
+}
 /* ---------DIV 3-------------- */
+.div_3{
+    background-image: url(./Imagenes/bg-1.jpg);
+}
+.inicio_div_3 h1{
+    padding: 0.5rem;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+.inicio_div_3 p{
+    padding: 0.5rem;
+    font-family: 'Playfair Display';
+    text-align: center;
+}
+.div_3 h1{
+    padding-top: 5rem;
+}
+.div_3 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1.5rem;
+    padding: 3rem 0rem;
+}
+.ul_div3 li a,.p_productos,.precio_descuento, .precio_sin_descuento{
+    text-align: left;
+    text-decoration: none;
+    color:#888888;
+    font-weight: bold;
+}
+.p_productos{
+    padding: 0.5rem;
+    
+}
+.precio_descuento{
+    font-size: 0.9rem;
+    color: #333333;
+    padding: 0.5rem;
+}
+.precio_sin_descuento{
+    text-decoration: line-through;
+    padding: 0;
+    font-size: 0.9rem;
+}
 /* ---------DIV 4-------------- */
+.div_4{
+    margin: 10rem;
+    text-align: center;
+    color: #6d6c6c;
+}
+.div_4 p{
+    padding: 0.5rem;
+    font-family: 'Lora';
+    font-style: italic;
+    font-size: 2rem;
+}
+.span1_div4{
+    margin-top: 2.1rem;
+    display: block;
+    font-weight: bold;
+}
+.span2_div4{
+    color: #888888;
+    font-weight: bold;
+
+}
 /* ---------DIV 5-------------- */
+
 /* ---------DIV 6-------------- */
 /* ---------DIV 7-------------- */
 /* ---------DIV 8-------------- */
+
+
+
+
 /* ----------------------MEDIA QUERIE MAX WIDTH 600PX------------------------- */
 @media only screen and (max-width: 600px) {
     html{
@@ -101,5 +189,13 @@ select {
     }
     .div_1 h1{
         margin-top: 7rem;
+    }
+    /* ---------DIV 2-------------- */
+    .div_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_2 .img1{
+        background-size: 200px 150px;
     }
 }
