@@ -1,0 +1,107 @@
+body header ul li a, body header div select, body main .div_2 .img1 span, body main .div_2 .img2 span, body main .div_3 ul li a, body main .div_4 span, body main .div_5 ul li a, body main .div_6 form .subscribe, body main .div_7 ul li a {
+  font-family: "WorK Sans"; }
+
+body main .div_2 .img1 p, body main .div_2 .img2 p {
+  font-family: "Lora"; }
+
+body main .div_3 h1, body main .div_3 p {
+  font-family: 'Playfair Display'; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #333333; }
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 1rem; }
+  body header ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none; }
+    body header ul li {
+      margin: 1rem;
+      padding: 0; }
+      body header ul li a {
+        text-decoration: none;
+        font-weight: 600; }
+  body header div select {
+    border: none; }
+
+body main .div_2 {
+  margin: 0;
+  padding: 4rem 8rem;
+  display: flex; }
+  body main .div_2 .img1 {
+    background-image: url(../Imagenes/banner-1.png);
+    width: 35.625rem;
+    height: 16.9375rem;
+    margin: 1.5rem;
+    padding: 6rem 1.5rem; }
+    body main .div_2 .img1 p {
+      color: #529F0F;
+      font-size: 2.5rem; }
+    body main .div_2 .img1 span {
+      font-weight: bold; }
+  body main .div_2 .img2 {
+    background-image: url(../Imagenes/banner-2.png);
+    width: 35.625rem;
+    height: 16.9375rem;
+    margin: 1.5rem;
+    padding: 6rem 1.5rem; }
+    body main .div_2 .img2 p {
+      color: #529F0F;
+      font-size: 2.5rem; }
+    body main .div_2 .img2 span {
+      font-weight: bold; }
+
+body main .div_3 {
+  text-align: center; }
+  body main .div_3 h1 {
+    margin: 0;
+    padding: 4rem 0rem 1rem 0rem;
+    font-weight: lighter; }
+  body main .div_3 p {
+    margin: 0;
+    padding: 1rem 0 2rem 0; }
+  body main .div_3 ul {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none; }
+    body main .div_3 ul li {
+      margin: 1rem;
+      padding: 0; }
+
+body main .div_5 ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  flex-wrap: wrap; }
+  body main .div_5 ul li {
+    margin: 1rem;
+    padding: 0; }
+
+body main .div_7 ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none; }
+  body main .div_7 ul li {
+    margin: 1rem;
+    padding: 0; }
+
+body main .div_8 ul {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  justify-content: space-evenly; }
+
+body footer .footer_parte1 {
+  display: flex;
+  justify-content: space-evenly; }
+  body footer .footer_parte1 ul {
+    list-style-type: none;
+    text-decoration: none; }
