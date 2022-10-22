@@ -370,12 +370,12 @@ input{
     .img1{
         height: 28vh;
         width: 50vh;
-        background-size: 15.625rem 8.75rem;
+        background-size: 25rem 13.6rem;
     }
     .img2{
         height: 28vh;
         width: 50vh;
-        background-size: 15.625rem 8.75rem;
+        background-size: 25rem 13.6rem;
     }
     /* ----------DIV 6 ------------- */
     .div_6{
@@ -392,4 +392,7 @@ input{
     .img_div7{
         width: 247px;
     }
+    /* ---------FOOTER PARTE 1------ */
+    .footer_parte1{
+        justify-content: center;
 }
