@@ -354,7 +354,7 @@ input{
     /* ---------DIV 1-------------- */
     .div_1 {
         justify-content: flex-start;
-        background-image: url(/Imagenes/slider-2.jpg);
+        background-image: url(Imagenes/slider-2.jpg);
         background-size: 550px 250px;
         height: 40vh;
     }
@@ -370,18 +370,18 @@ input{
     .img1{
         height: 28vh;
         width: 50vh;
-        background-size: 250px 140px;
+        background-size: 15.625rem 8.75rem;
     }
     .img2{
         height: 28vh;
         width: 50vh;
-        background-size: 250px 140px;
+        background-size: 15.625rem 8.75rem;
     }
     /* ----------DIV 6 ------------- */
     .div_6{
         justify-content: flex-start;
-        background-image: url(/Imagenes/bg-2.jpg);
-        background-size: 400px 300px;
+        background-image: url(Imagenes/bg-2.jpg);
+        background-size: 25rem 18.75rem;
         height: 35vh;
     }
     .email{
