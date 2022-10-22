@@ -356,10 +356,10 @@ input{
         justify-content: flex-start;
         background-image: url(/Imagenes/slider-2.jpg);
         background-size: 550px 250px;
-        height: 30vh;
+        height: 40vh;
     }
     .h1_div1{
-        font-size: 3rem;
+        font-size: 2.5rem;
         padding-top: 5rem;
     }
     /* ---------DIV 2-------------- */
@@ -368,22 +368,28 @@ input{
         flex-direction: column;
     }
     .img1{
-        height: 15vh;
-        background-size: 350px 160px;
+        height: 28vh;
+        width: 50vh;
+        background-size: 250px 140px;
     }
     .img2{
-        height: 15vh;
-        background-size: 350px 160px;
+        height: 28vh;
+        width: 50vh;
+        background-size: 250px 140px;
     }
     /* ----------DIV 6 ------------- */
     .div_6{
         justify-content: flex-start;
         background-image: url(/Imagenes/bg-2.jpg);
         background-size: 400px 300px;
-        height: 30vh;
+        height: 35vh;
     }
     .email{
         font-family: 'Lora';
-        width: 40%;
+        width: 55%;
+    }
+    /* ---------DIV 7-------------- */
+    .img_div7{
+        width: 247px;
     }
 }
